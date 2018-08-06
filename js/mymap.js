@@ -60,7 +60,7 @@ function loadAllAgain(SELECTED) {
 
 
    // Read topojson data and create the map
-   d3.json("../data/nepal-districts.topo.json", function(error, nepal) {
+   d3.json("nepal-districts.topo.json", function(error, nepal) {
      if(error) return console.error(error);
 
      var districts = topojson.feature(nepal, nepal.objects.districts);
