@@ -49,7 +49,7 @@ loadAllAgain(SELECTED);
 function loadAllAgain(SELECTED) {
 
  //Load in agriculture data
- d3.csv("DalitEnrollment/data/dalit-enrollment-at-all-levels-by-district-in-all-types-of-school-year-2011-012.csv", function(data) {
+ d3.csv("dalit-enrollment-at-all-levels-by-district-in-all-types-of-school-year-2011-012.csv", function(data) {
 
 
       //Set input domain for color scale
