@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Map of Proposed Nepalese Federal States</title>
+    <script type="text/javascript"  src="js/d3/d3.min.js"></script>
+    <script type="text/javascript"  src="js/topojson.v1.min.js"></script>
+    <link href="css/style.css" media="screen" rel="stylesheet" type="text/css">
+  </head>
+
+ <body>
+
+
+  <div id="tooltip" class="hidden">
+    <p><strong id ="heading"></strong></p>
+    <p><span id="population"></span></p>
+    <p><span id="area"></span></p>
+  </div>
+
+  <h1 id="headtitle">Dalit Enrollment At Grade 1 by District</h1>
+  <script type ="text/javascript" src ="js/mymap.js"></script>
+
+  <select id="mySelect" onchange="myFunction()">
+    <option value="Grade1">Grade1</option>
+    <option value="Grade2">Grade2</option>
+    <option value="Grade3">Grade3</option>
+    <option value="Grade4">Grade4</option>
+    <option value="Grade5">Grade5</option>
+    <option value="Grade6">Grade6</option>
+    <option value="Grade7">Grade7</option>
+    <option value="Grade8">Grade8</option>
+    <option value="Grade9">Grade9</option>
+    <option value="Grade10">Grade10</option>
+    <option value="Grade11">Grade11</option>
+    <option value="Grade12">Grade12</option>
+  </select>
+  <p>Map taken from <a href = "https://github.com/batuwa/nepal_d3_map">https://github.com/batuwa/nepal_d3_map</a></p>
+  <p>Data from <a href="http://opendatanepal.com/dataset/dalit-enrollment-at-all-levels-by-district-in-all-types-of-school-year-2011-012">http://opendatanepal.com/dataset/dalit-enrollment-at-all-levels-by-district-in-all-types-of-school-year-2011-012</a>
+  <p>Developed by: 277Roshan</p>
+ </body>
+</html>
